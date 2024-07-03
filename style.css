@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    align-items: center;
+    font-family: cursive;
+    color: lightgray;
+    position: relative;
+}
+
+.container{
+    text-align: center;
+    width: 300px;
+
+}
+
+.counter{
+    font-size: 40px;
+
+}
+
+.loading-bar-back{
+    position: absolute;
+    background-color: lightgray;
+    height: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+.loading-bar-front{
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    width: 10%;
+    height: 8px;
+}
